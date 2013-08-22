@@ -17,12 +17,6 @@
 		B522E55A17C64D5100D0E460 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E55917C64D5100D0E460 /* Default@2x.png */; };
 		B522E55C17C64D5100D0E460 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E55B17C64D5100D0E460 /* Default-568h@2x.png */; };
 		B522E55F17C64D5100D0E460 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522E55D17C64D5100D0E460 /* MainStoryboard.storyboard */; };
-		B522E56217C64D5100D0E460 /* DAPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E56117C64D5100D0E460 /* DAPFirstViewController.m */; };
-		B522E56417C64D5100D0E460 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56317C64D5100D0E460 /* first.png */; };
-		B522E56617C64D5100D0E460 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56517C64D5100D0E460 /* first@2x.png */; };
-		B522E56917C64D5100D0E460 /* DAPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E56817C64D5100D0E460 /* DAPSecondViewController.m */; };
-		B522E56B17C64D5100D0E460 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56A17C64D5100D0E460 /* second.png */; };
-		B522E56D17C64D5100D0E460 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56C17C64D5100D0E460 /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +34,6 @@
 		B522E55917C64D5100D0E460 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B522E55B17C64D5100D0E460 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B522E55E17C64D5100D0E460 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B522E56017C64D5100D0E460 /* DAPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPFirstViewController.h; sourceTree = "<group>"; };
-		B522E56117C64D5100D0E460 /* DAPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPFirstViewController.m; sourceTree = "<group>"; };
-		B522E56317C64D5100D0E460 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		B522E56517C64D5100D0E460 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B522E56717C64D5100D0E460 /* DAPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPSecondViewController.h; sourceTree = "<group>"; };
-		B522E56817C64D5100D0E460 /* DAPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPSecondViewController.m; sourceTree = "<group>"; };
-		B522E56A17C64D5100D0E460 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B522E56C17C64D5100D0E460 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +83,6 @@
 				B522E55417C64D5100D0E460 /* DAPAppDelegate.h */,
 				B522E55517C64D5100D0E460 /* DAPAppDelegate.m */,
 				B522E55D17C64D5100D0E460 /* MainStoryboard.storyboard */,
-				B522E56017C64D5100D0E460 /* DAPFirstViewController.h */,
-				B522E56117C64D5100D0E460 /* DAPFirstViewController.m */,
-				B522E56317C64D5100D0E460 /* first.png */,
-				B522E56517C64D5100D0E460 /* first@2x.png */,
-				B522E56717C64D5100D0E460 /* DAPSecondViewController.h */,
-				B522E56817C64D5100D0E460 /* DAPSecondViewController.m */,
-				B522E56A17C64D5100D0E460 /* second.png */,
-				B522E56C17C64D5100D0E460 /* second@2x.png */,
 				B522E54C17C64D5100D0E460 /* Supporting Files */,
 			);
 			path = ThoughtfulMate;
@@ -181,10 +159,6 @@
 				B522E55A17C64D5100D0E460 /* Default@2x.png in Resources */,
 				B522E55C17C64D5100D0E460 /* Default-568h@2x.png in Resources */,
 				B522E55F17C64D5100D0E460 /* MainStoryboard.storyboard in Resources */,
-				B522E56417C64D5100D0E460 /* first.png in Resources */,
-				B522E56617C64D5100D0E460 /* first@2x.png in Resources */,
-				B522E56B17C64D5100D0E460 /* second.png in Resources */,
-				B522E56D17C64D5100D0E460 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +171,6 @@
 			files = (
 				B522E55217C64D5100D0E460 /* main.m in Sources */,
 				B522E55617C64D5100D0E460 /* DAPAppDelegate.m in Sources */,
-				B522E56217C64D5100D0E460 /* DAPFirstViewController.m in Sources */,
-				B522E56917C64D5100D0E460 /* DAPSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
