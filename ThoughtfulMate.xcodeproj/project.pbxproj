@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B522E54617C64D5100D0E460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B522E54517C64D5100D0E460 /* UIKit.framework */; };
+		B522E54817C64D5100D0E460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B522E54717C64D5100D0E460 /* Foundation.framework */; };
+		B522E54A17C64D5100D0E460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B522E54917C64D5100D0E460 /* CoreGraphics.framework */; };
+		B522E55017C64D5100D0E460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B522E54E17C64D5100D0E460 /* InfoPlist.strings */; };
+		B522E55217C64D5100D0E460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E55117C64D5100D0E460 /* main.m */; };
+		B522E55617C64D5100D0E460 /* DAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E55517C64D5100D0E460 /* DAPAppDelegate.m */; };
+		B522E55817C64D5100D0E460 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E55717C64D5100D0E460 /* Default.png */; };
+		B522E55A17C64D5100D0E460 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E55917C64D5100D0E460 /* Default@2x.png */; };
+		B522E55C17C64D5100D0E460 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E55B17C64D5100D0E460 /* Default-568h@2x.png */; };
+		B522E55F17C64D5100D0E460 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B522E55D17C64D5100D0E460 /* MainStoryboard.storyboard */; };
+		B522E56217C64D5100D0E460 /* DAPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E56117C64D5100D0E460 /* DAPFirstViewController.m */; };
+		B522E56417C64D5100D0E460 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56317C64D5100D0E460 /* first.png */; };
+		B522E56617C64D5100D0E460 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56517C64D5100D0E460 /* first@2x.png */; };
+		B522E56917C64D5100D0E460 /* DAPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B522E56817C64D5100D0E460 /* DAPSecondViewController.m */; };
+		B522E56B17C64D5100D0E460 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56A17C64D5100D0E460 /* second.png */; };
+		B522E56D17C64D5100D0E460 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B522E56C17C64D5100D0E460 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B522E54217C64D5100D0E460 /* ThoughtfulMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtfulMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B522E54517C64D5100D0E460 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B522E54717C64D5100D0E460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B522E54917C64D5100D0E460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B522E54D17C64D5100D0E460 /* ThoughtfulMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThoughtfulMate-Info.plist"; sourceTree = "<group>"; };
+		B522E54F17C64D5100D0E460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B522E55117C64D5100D0E460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B522E55317C64D5100D0E460 /* ThoughtfulMate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThoughtfulMate-Prefix.pch"; sourceTree = "<group>"; };
+		B522E55417C64D5100D0E460 /* DAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPAppDelegate.h; sourceTree = "<group>"; };
+		B522E55517C64D5100D0E460 /* DAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPAppDelegate.m; sourceTree = "<group>"; };
+		B522E55717C64D5100D0E460 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B522E55917C64D5100D0E460 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B522E55B17C64D5100D0E460 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B522E55E17C64D5100D0E460 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B522E56017C64D5100D0E460 /* DAPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPFirstViewController.h; sourceTree = "<group>"; };
+		B522E56117C64D5100D0E460 /* DAPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPFirstViewController.m; sourceTree = "<group>"; };
+		B522E56317C64D5100D0E460 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B522E56517C64D5100D0E460 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B522E56717C64D5100D0E460 /* DAPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPSecondViewController.h; sourceTree = "<group>"; };
+		B522E56817C64D5100D0E460 /* DAPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPSecondViewController.m; sourceTree = "<group>"; };
+		B522E56A17C64D5100D0E460 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B522E56C17C64D5100D0E460 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B522E53F17C64D5100D0E460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B522E54617C64D5100D0E460 /* UIKit.framework in Frameworks */,
+				B522E54817C64D5100D0E460 /* Foundation.framework in Frameworks */,
+				B522E54A17C64D5100D0E460 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B522E53917C64D5100D0E460 = {
+			isa = PBXGroup;
+			children = (
+				B522E54B17C64D5100D0E460 /* ThoughtfulMate */,
+				B522E54417C64D5100D0E460 /* Frameworks */,
+				B522E54317C64D5100D0E460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B522E54317C64D5100D0E460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B522E54217C64D5100D0E460 /* ThoughtfulMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B522E54417C64D5100D0E460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B522E54517C64D5100D0E460 /* UIKit.framework */,
+				B522E54717C64D5100D0E460 /* Foundation.framework */,
+				B522E54917C64D5100D0E460 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B522E54B17C64D5100D0E460 /* ThoughtfulMate */ = {
+			isa = PBXGroup;
+			children = (
+				B522E55417C64D5100D0E460 /* DAPAppDelegate.h */,
+				B522E55517C64D5100D0E460 /* DAPAppDelegate.m */,
+				B522E55D17C64D5100D0E460 /* MainStoryboard.storyboard */,
+				B522E56017C64D5100D0E460 /* DAPFirstViewController.h */,
+				B522E56117C64D5100D0E460 /* DAPFirstViewController.m */,
+				B522E56317C64D5100D0E460 /* first.png */,
+				B522E56517C64D5100D0E460 /* first@2x.png */,
+				B522E56717C64D5100D0E460 /* DAPSecondViewController.h */,
+				B522E56817C64D5100D0E460 /* DAPSecondViewController.m */,
+				B522E56A17C64D5100D0E460 /* second.png */,
+				B522E56C17C64D5100D0E460 /* second@2x.png */,
+				B522E54C17C64D5100D0E460 /* Supporting Files */,
+			);
+			path = ThoughtfulMate;
+			sourceTree = "<group>";
+		};
+		B522E54C17C64D5100D0E460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B522E54D17C64D5100D0E460 /* ThoughtfulMate-Info.plist */,
+				B522E54E17C64D5100D0E460 /* InfoPlist.strings */,
+				B522E55117C64D5100D0E460 /* main.m */,
+				B522E55317C64D5100D0E460 /* ThoughtfulMate-Prefix.pch */,
+				B522E55717C64D5100D0E460 /* Default.png */,
+				B522E55917C64D5100D0E460 /* Default@2x.png */,
+				B522E55B17C64D5100D0E460 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B522E54117C64D5100D0E460 /* ThoughtfulMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B522E57017C64D5100D0E460 /* Build configuration list for PBXNativeTarget "ThoughtfulMate" */;
+			buildPhases = (
+				B522E53E17C64D5100D0E460 /* Sources */,
+				B522E53F17C64D5100D0E460 /* Frameworks */,
+				B522E54017C64D5100D0E460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThoughtfulMate;
+			productName = ThoughtfulMate;
+			productReference = B522E54217C64D5100D0E460 /* ThoughtfulMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B522E53A17C64D5100D0E460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DAP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "De Haven Prillerman";
+			};
+			buildConfigurationList = B522E53D17C64D5100D0E460 /* Build configuration list for PBXProject "ThoughtfulMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B522E53917C64D5100D0E460;
+			productRefGroup = B522E54317C64D5100D0E460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B522E54117C64D5100D0E460 /* ThoughtfulMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B522E54017C64D5100D0E460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B522E55017C64D5100D0E460 /* InfoPlist.strings in Resources */,
+				B522E55817C64D5100D0E460 /* Default.png in Resources */,
+				B522E55A17C64D5100D0E460 /* Default@2x.png in Resources */,
+				B522E55C17C64D5100D0E460 /* Default-568h@2x.png in Resources */,
+				B522E55F17C64D5100D0E460 /* MainStoryboard.storyboard in Resources */,
+				B522E56417C64D5100D0E460 /* first.png in Resources */,
+				B522E56617C64D5100D0E460 /* first@2x.png in Resources */,
+				B522E56B17C64D5100D0E460 /* second.png in Resources */,
+				B522E56D17C64D5100D0E460 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B522E53E17C64D5100D0E460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B522E55217C64D5100D0E460 /* main.m in Sources */,
+				B522E55617C64D5100D0E460 /* DAPAppDelegate.m in Sources */,
+				B522E56217C64D5100D0E460 /* DAPFirstViewController.m in Sources */,
+				B522E56917C64D5100D0E460 /* DAPSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B522E54E17C64D5100D0E460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B522E54F17C64D5100D0E460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B522E55D17C64D5100D0E460 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B522E55E17C64D5100D0E460 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B522E56E17C64D5100D0E460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B522E56F17C64D5100D0E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B522E57117C64D5100D0E460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThoughtfulMate/ThoughtfulMate-Prefix.pch";
+				INFOPLIST_FILE = "ThoughtfulMate/ThoughtfulMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B522E57217C64D5100D0E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThoughtfulMate/ThoughtfulMate-Prefix.pch";
+				INFOPLIST_FILE = "ThoughtfulMate/ThoughtfulMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B522E53D17C64D5100D0E460 /* Build configuration list for PBXProject "ThoughtfulMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B522E56E17C64D5100D0E460 /* Debug */,
+				B522E56F17C64D5100D0E460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B522E57017C64D5100D0E460 /* Build configuration list for PBXNativeTarget "ThoughtfulMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B522E57117C64D5100D0E460 /* Debug */,
+				B522E57217C64D5100D0E460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B522E53A17C64D5100D0E460 /* Project object */;
+}
